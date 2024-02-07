@@ -1,0 +1,65 @@
+.flashsale{
+    height: 43vh;
+    max-width: 1184px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: block;
+}
+
+.card{
+    height: 50%;
+    width: 100%;
+}
+
+.card-img-top{
+    height: 50%;
+    width: 20vw;
+}
+.items{
+    height: 30vh;
+    justify-content: center;
+}
+
+.slick-slide > div{
+    margin: 0 2px;
+    height: 20%;
+}
+
+.headerfl{
+    min-height: 48px;
+    background-color: #e61601;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.headerfl h2{
+    font-size: 1.35rem;
+}
+
+.name{
+    font-size: 0.825rem;
+    text-overflow: ellipsis;
+}
+
+.prc{
+
+}
+.newprc{
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 15px
+}
+
+.oldprc{
+    font-size: 0.825rem;
+    text-decoration: line-through;
+    line-height: 0px;
+}
+
+
+.itemsleft p{
+    font-size: 0.670rem;
+    line-height: 3px;
+}
+
