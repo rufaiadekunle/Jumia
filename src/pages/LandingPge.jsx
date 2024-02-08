@@ -6,10 +6,12 @@ import FlashsSale from '../components/FlashsSale'
 import Limited from '../components/Limited'
 import Withlove from '../components/Withlove'
 import Withloveone from '../components/Withloveone'
+import Navbar from '../components/Navbar'
 
 const LandingPge = () => {
   return (
     <div>
+    <Navbar/>
       <TopSelling/>
       <Banner/>
       <FlashsSale countdown={15}/>
