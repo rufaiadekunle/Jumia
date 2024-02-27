@@ -1,4 +1,4 @@
-import React from 'react'
+
 import datas from '../apiData/data' 
 import '../css/topselling.css'
 import Slider from "react-slick";
@@ -24,14 +24,14 @@ const TopSelling = () => {
       {
         datas.map((data, idx)=>{
           return(
-            <div index={idx}>
-            <div class="card">
-                <img src={data.imgUrl} class="card-img-top" alt="..."/>
-                <div class="card-body">
-                    <div class="name">{data.name}</div>
+            <div key={idx}>
+            <div className="card">
+                <img src={data.imgUrl} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                    <div className="name">{data.name}</div>
                     <div className='prc'>
-                      <p class="newprc">{data.newP}</p>
-                      <p class="oldprc">{data.oldp}</p>
+                      <p className="newprc">{data.newP}</p>
+                      <p className="oldprc">{data.oldp}</p>
                     </div>
                 </div>
               </div>
