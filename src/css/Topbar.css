@@ -1,0 +1,40 @@
+body {
+    margin: 0%;
+    box-sizing: border-box;
+}
+.topbar{
+    background-color: #f1f1f2;
+    height: 32px;
+}
+.star1{
+    color: rgb(255, 166, 0);
+    margin-left: 6%;
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: 600;
+    justify-content: center;
+}
+.star1:hover {
+    color: rgb(255, 166, 0);
+    text-decoration: underline;
+}
+.img{
+    margin-bottom: 0.1%;
+    margin-right: 0.5%;
+}
+
+.img2{
+    margin-left: 28%;
+    width: 4vw;
+    height: 1.6vh;
+}
+
+.img3{
+    width: 5vw;
+    height: 2vh;
+    color: grey;
+}
+.img:hover{
+    color: black;
+}
+
